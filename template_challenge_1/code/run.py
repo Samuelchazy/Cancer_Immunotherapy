@@ -1,0 +1,1 @@
+print("This is a sample submission_challenge_1")

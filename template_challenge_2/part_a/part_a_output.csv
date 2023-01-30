@@ -1,0 +1,7 @@
+gene,objective,cycling_constraint
+gene1,1,0
+gene2,0.95,1
+gene3,0.94,1
+...
+gene15076,0.1,1
+gene15077,0.1,0
