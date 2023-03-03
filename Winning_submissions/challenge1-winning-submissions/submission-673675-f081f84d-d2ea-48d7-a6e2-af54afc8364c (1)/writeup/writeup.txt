@@ -1,0 +1,1 @@
+I used the nearest neighbors method. I took 5 nearest neighbors by mae metric for each gene. I took genes from which there are more than 30 values in the train. Averaged predictions

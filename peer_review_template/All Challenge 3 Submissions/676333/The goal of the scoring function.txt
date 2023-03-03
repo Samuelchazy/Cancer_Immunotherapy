@@ -1,0 +1,11 @@
+The goal of the scoring function is to measure how well a proposed perturbation shifts T cells towards the desired state represented by Q. The empirical gene expression distributions (P0 and Pi) are crucial inputs to the scoring function as they provide information about the effects of each perturbation on the cells.
+
+The scoring function should take into account the uncertainty in the training data due to the different sample sizes for the perturbations. This is important because different perturbations lead to different growth rates and thus result in a different number of cells.
+
+The scoring function could also take into account the predicted number of cells resulting from a guide and favor perturbations with a large growth rate. This is important because the ability of T cells to kill cancer cells is directly related to the number of cells present.
+
+Additionally, the scoring function could take into account the classification boundaries of each cell state. This would provide a more nuanced view of the changes in the cell state and allow for a better evaluation of the effectiveness of the perturbation.
+
+Finally, it may be helpful to use a more informative statistic than the cell state proportion vector, which could take into account the classification boundaries of each cell state. This could provide a more comprehensive view of the changes in the cell state and allow for a more accurate evaluation of the effectiveness of the perturbation.
+
+In conclusion, the scoring function should be designed to take into account the empirical gene expression distributions, the uncertainty in the training data, the predicted number of cells, the classification boundaries of each cell state, and a more informative statistic to provide a comprehensive evaluation of the effectiveness of the perturbation in shifting T cells towards the desired state.
