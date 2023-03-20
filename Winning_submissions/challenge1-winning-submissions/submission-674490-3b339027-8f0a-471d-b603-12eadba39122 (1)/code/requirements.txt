@@ -1,5 +1,0 @@
-scikit-learn~=1.1
-pandas~=1.4
-scanpy~=1.9
-numpy~=1.21
-jsonlines~=3.1
