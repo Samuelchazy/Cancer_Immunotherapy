@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/peer_review_template/All Challenge 3 Submissions/676651/solution" />
+      <excludeFolder url="file://$MODULE_DIR$/Winning_submissions/challenge1-winning-submissions/submission-673887-86314490-804b-4c57-b994-692fa44965fe/code/input" />
+      <excludeFolder url="file://$MODULE_DIR$/Winning_submissions/challenge1-winning-submissions/submission-674388-dd22e6fd-fa09-4ba3-9945-a6d757e967db/code/bindata" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 virtualenv at ~/ML_files_X/venv_3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
