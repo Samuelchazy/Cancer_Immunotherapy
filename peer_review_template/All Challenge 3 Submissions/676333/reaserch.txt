@@ -1,9 +1,0 @@
-Let 0P0 be the baseline gene expression distribution, Q be the desired cell state distribution, and ^(⋅)s^(Pi​) be the predicted statistic for the gene expression distribution after knocking out gene i.
-
-The scoring function can be defined as:
-
-Score(Pi) = w * KL(Pi, Q) + (1 - w) * KL(Pi,0P0) + log(Growth rate) - log(Sample size) + Penalty term
-
-where KL(⋅, ⋅) is the Kullback-Leibler divergence between two distributions, w is a weight that balances the importance of moving towards the desired cell state vs maintaining the baseline expression, Growth rate is the predicted growth rate after knocking out gene i, Sample size is the number of cells used to estimate the gene expression distribution, and Penalty term is a measure of the deviation from the classification boundaries, such as the Mahalanobis distance from the closest boundary.
-
-This scoring function takes into account the baseline gene expression distribution, the desired cell state distribution, the uncertainty in the prediction due to differences in sample size, the predicted growth rate, and the proximity to the classification boundaries. By incorporating all these factors, the scoring function provides a comprehensive evaluation of the quality of the perturbation and can guide the selection of optimal perturbations.
