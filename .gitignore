@@ -1,8 +1,8 @@
 data/sc_training.h5ad
 data/panglao_human.h5ad
 data/scRNA_ATAC.h5
-Winning_submissions
-venv
+Winning_submissions/
+venv/
 data/submission_challenge_3_peer_review/
 data/submission_challenge_3_peer_review_v2/
 Deprecated_files/
